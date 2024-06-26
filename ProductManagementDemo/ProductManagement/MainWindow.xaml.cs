@@ -39,7 +39,7 @@ namespace ProductManagement
             }
             catch (Exception ex)
             {
-                // MessageBox.Show(ex.Message, "Error on load list of products");
+                MessageBox.Show(ex.Message, "Error on load list of products");
             }
             finally
             {
